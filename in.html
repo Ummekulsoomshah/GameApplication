@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Open+Sans:ital,wght@1,300&family=Oswald:wght@500&display=swap"
+        rel="stylesheet">
+
+    <style>
+        body{
+            margin: 0px;
+            padding: 0px;
+            background: url('/img/game.jpg');
+            color: white;
+            font-family: 'Delicious Handrawn', cursive;
+            font-family: 'Open Sans', sans-serif;
+            font-family: 'Oswald', sans-serif;
+        }
+
+        .left{
+            display: inline-block;
+            position:fixed;
+            /* border: 2px solid blue; */
+        }
+        .left img{
+            width: 89px;
+            filter: invert(100%);
+        }
+            
+        .mid{
+            /* border: 2px solid green; */
+            
+            width: 77%;
+            
+            margin: 20px auto;
+            padding:0px;
+            border-radius: 34px;
+            
+            padding-bottom: 2px;
+            /* background-color: rgb(9, 89, 92); */
+            border: 2px solid cadetblue;
+            font-size: 17px;
+            
+            top: 20px;
+
+        }
+        .bottomr1{
+            top: 600px;
+            right:34px;
+            position:fixed;
+            display: inline-block;
+            /* border:2px solid red; */
+            font-size: 17px;
+            background-color: rgb(16, 78, 80);
+            padding: 14px;
+            cursor: pointer;
+        }
+        .bottomr2{
+            top: 535px;
+            position:fixed;
+            right:34px;
+            display: inline-block;
+            /* border:2px solid red; */
+            font-size: 17px;
+            background-color: rgb(16, 78, 80);
+            padding: 14px;
+            cursor: pointer;
+
+        
+
+
+        }
+        .bottomr1:hover{
+            background-color: red;
+        }
+        .bottomr2:hover{
+            background-color: red;
+        }
+        .navbar{
+            display: inline-block;
+        }
+        .navbar li {
+            /* take home wgera ak hi line me ajaen */
+            display: inline-block;
+            font-size: 25px;
+        }
+
+        .navbar li a {
+            color: white;
+            text-decoration: none;
+            padding: 23px 12px;
+        }
+
+        /* mtlb jb home wgera pr cursor rkhn toh underine hojae ya click kren toh toh wo underline rhjae */
+        .navbar li a:hover {
+            /* .navbar li a.active   is not working mine*/
+            text-decoration: underline;
+            color: red;
+
+        }
+        .container {
+            border: 2px solid white;
+            /* top left */
+            margin: 106px 80px;
+            padding: 75px;
+            width: 33%;
+            border-radius: 28px;
+
+
+
+
+
+        }
+        .form-group input{
+            text-align: center;
+            display: block;
+            width: 495px;
+            padding: 1px;
+            padding-bottom: 5px;
+            border: 2px solid black;
+            margin: 7px auto;
+            font-size:12px ;
+            
+            border-radius: 28px;
+            font-family: 'Delicious Handrawn', cursive;
+            font-family: 'Open Sans', sans-serif;
+            font-family: 'Oswald', sans-serif;
+            
+
+        }
+        .container h1{
+            text-align: center;
+        }
+        .container button{
+            /* width: px; */
+            text-align: center;
+            border-radius: 34px;
+            background-color: cadetblue;
+            
+            margin: 1px;
+        }
+        .container button:hover{
+            background-color: whitesmoke;
+        }
+        
+        
+        
+        
+
+    </style>
+</head>
+<body>
+     <div class="header">
+        
+        <div class="left">
+            <img src="/img/klogo.jpg" alt="">
+            <div>UMME'S Empire</div>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+
+                
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">ABOUT US</a></li>
+                <li><a href="#">LEVEL</a></li>
+                <li><a href="#">BLOG</a></li>
+                <li><a href="#">COMMUNITY</a></li>
+                <li><a href="#">ROADMAP</a></li>
+                <li><a href="#">CONTACT US</a></li>
+
+            </ul>
+
+        </div>
+        <div class="container">
+            <h1>UNLEASH YOUR POWER</h1>
+            <!-- kynke backend pe km nh krre islye random likhydya php ka name -->
+            <form action="nonaction.php"></form>
+            
+            <div class="form-group">
+                <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi sit consectetur quas ducimus ipsam labore, saepe sapiente, sed corrupti quia eligendi voluptatem nihil magni officia magnam quasi illum recusandae laborum!</div>
+                <button>PURCHASE</button>
+            </div>
+            <div class="form-group">
+                <button>DETAILS</button>
+            </div>
+             
+
+
+        </div>
+        <div class="bottomr1">Related links</div>
+        <div class="bottomr2">Have a chat</div>
+    </div>
+    
+    
+    
+
+    
+</body>
+</html>
